@@ -9,8 +9,7 @@ public class MediatorController {
 
 	@RequestMapping
 	public String getHomePage() {
-		System.out.println("hello");
-		System.out.println("Third change");
+		
 		return "redirect:/users";
 	}
 }
